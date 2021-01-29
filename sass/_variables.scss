@@ -1,0 +1,115 @@
+//COLORS
+$color-primary: #80d967;
+$color-primary-dark1: #5ecf3e;
+$color-primary-dark2: #4ebc2f; 
+$color-primary-dark3: #43a128;
+$color-primary-dark4: #388621;
+$color-primary-dark5: #2c6b1b;
+$color-primary-light1: #8bdc75;
+$color-primary-light2: #97e082;
+$color-primary-light3: #ade79d;
+$color-primary-light4: #dbf4d4;
+
+$color-secondary: #50b1ff;
+$color-secondary-dark1: #2ea2ff;
+$color-secondary-dark2: #0c92ff;
+$color-secondary-dark3: #0077d8;
+$color-secondary-dark4: #005294;
+$color-secondary-light1: #61b9ff;
+$color-secondary-light2: #72c0ff;
+$color-secondary-light3: #94cfff;
+$color-secondary-light4: #c7e6ff;
+$color-secondary-light5: #d8edff;
+$color-secondary-light6: #e9f5ff;
+$color-secondary-light7: #fafdff;
+$color-secondary-blueish: #4C3DFA;
+$color-secondary-blueish-light: #4C3FD7;
+
+$color-tertiary: #f1c40f;
+$color-tertiary-dark1: #d2aa0c;
+$color-tertiary-dark2: #a28309;
+$color-tertiary-dark3: #826908;
+$color-tertiary-light1: #f3cc2f;
+$color-tertiary-light2: #f6d85f;
+$color-tertiary-light3: #f8e07f;
+$color-tertiary-light4: #f9e89f;
+
+$color-forth: #7066ff;
+$color-forth: #8a8f39;
+$color-forth-dark1: #73772f;
+$color-forth-dark2: #5b5e26;
+$color-forth-light1: #a1a743;
+$color-forth-light2: #b4ba52;
+$color-forth-light3: #bec46a;
+$color-forth-light4: #c9cd82;
+$color-forth-light5: #d4d79b;
+
+$color-fifth-light: #5386af;
+$color-fifth-lighter: #81a7c5;
+$color-fifth-dark: #2c485f;
+$color-fifth-darker: #1c2e3c;
+
+$color-sixth: #96281B;
+$color-sixth-dark: #5c1911;
+$color-sixth-light: #d93f2d;
+$color-sixth-lighter: #e47466;
+
+$color-seventh: #3c6382;
+$color-seventh-dark1: #31516b;
+$color-seventh-dark2: #274054;
+$color-seventh-light1: #477599;
+$color-seventh-light2: #5386af;
+$color-seventh-light3: #6a97ba;
+$color-seventh-light4: #81a7c5;
+
+$color-eighth: #ff1313;
+
+$color-grey-dark1: #3c3c3c;
+$color-grey-dark2: #343434;
+$color-grey-dark3: #232323;
+$color-grey-light: #e2e2e2;
+$color-grey-light1: #b3b3b3;
+$color-grey-light2: #919191;
+$color-grey-light3: #6f6f6f;
+$color-white: #fff;
+$color-black: #000;
+
+
+//FONT COLORS
+$color-font-primary: #154d64;
+$color-font-secondary: #09222c;
+$color-font-tertiary: #2ea3d3;
+$color-font-fourth: #c69963;
+$color-font-fourth-light: #d8ba95;
+$color-font-fourth-dark: #a8773d;
+$color-font-fourth-darker: #6a4b27;
+
+//FONT SIZES
+$font-size-tiny: 1.2rem;
+$font-size-small: 1.5rem;
+$font-size-default: 1.7rem;
+$font-size-standard: 2rem;
+$font-size-medium: 2.4rem;
+$font-size-medium-big: 2.7rem;
+$font-size-big: 3rem;
+$font-size-large: 3.5rem;
+$font-size-huge: 4rem;
+$font-size-logo: 10rem;
+
+//FONT FAMILIES
+$font-main: 'Lato', ;
+$font-primary: 'Crimson Text', serif;
+$font-secondary: 'Libre Caslon Display', serif;
+$font-tertiary: 'Marcellus', serif;
+$font-heading-primary: 'Headland One', serif;
+$font-heading-secondary: 'Cinzel', serif;
+$font-heading-logo: 'Alegreya Sans SC', sans-serif;
+
+//TEXT-DECORATIONS
+
+
+//BOX-SHADOWS
+$boxshadow-bottom: 0 .3rem 2rem $color-secondary-light2;
+
+//BORDER-RADIUSES
+

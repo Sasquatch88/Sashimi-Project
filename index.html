@@ -1,0 +1,2478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sashimi Books</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Headland+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script data-main="app" src="Scripts/require.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="navbar__logobox">
+                <img class="navbar__logobox--logo" src="Images/SVG/book.svg" alt="Logo">
+                <p class="navbar__logobox--name">SASHIMI<br>BOOKS</p>
+        </a>
+
+        <form class="navbar__searchbox">
+            <input type="text" class="navbar__searchbox--input" placeholder="Search for books...">
+            <button class="navbar__searchbox--button">
+                <img src="Images/SVG/search.svg" alt="Search Icon" class="navbar__searchbox--buttonicon">
+            </button>
+        </form>
+
+        <div class="navbar__menu">
+            <a href="#" class="navbar__menu--actionbox">
+                <span class="navbar__menu--actionbox--sizebubble">0</span>
+                <img src="Images/SVG/shopping-cart.svg" alt="Cart" class="navbar__menu--actionbox--icon">
+                <p class="navbar__menu--actionbox--name">My Cart</p>
+            </a>
+            <a href="#" class="navbar__menu--actionbox">
+                <img src="Images/SVG/user-o.svg" alt="User" class="navbar__menu--actionbox--icon">
+                <p class="navbar__menu--actionbox--name">Login/Register</p>
+            </a>
+            <a href="#" class="navbar__menu--actionbox">
+                <span class="navbar__menu--actionbox--sizebubble">0</span>
+                <img src="Images/SVG/bookmark-o.svg" alt="Favorites" class="navbar__menu--actionbox--icon">
+                <p class="navbar__menu--actionbox--name">Wish List</p>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="menubox">
+
+            <div class="contact">
+                <p class="contact--info">Sashimi discount books - Your online bookshop</p>
+                <p class="contact--phone"><span class="contact--phone--number">+48 85 668 69 87 </span>(mon-fri: 7:00-20:00)</p>
+                <p class="contact--email">shop@sashimi.com</p>
+                <p class="contact--contact"><a href="#">Kontakt ></a></p>
+                <p class="contact--costs"><a href="#">Shipping Costs ></a></p>
+            </div>
+
+            <div class="menu" id="menu">
+                <a href="#" class="menu__button">Categories</a>
+                <a href="#" class="menu__button">Bestsellers</a>
+                <a href="#" class="menu__button">Recommended</a>
+                <a href="#" class="menu__button">News</a>
+                <a href="#" class="menu__button">Upcoming</a>
+                <a href="#" class="menu__button">For Kids</a>
+                <a href="#" class="menu__button">On Sale</a>
+                <a href="#" class="menu__button">Fantasy & S-F</a>
+            </div>
+
+        </div>
+
+        
+
+        <div class="displaybox bestsellers" id="Bestsellers">
+            <p class="displaybox__heading"><a href="#">Bestsellers</a></p>
+            <div class="displaybox__content">
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <a class="card__ia" href="#"><img title="Dune" src="Images/Books/42974900208KS.jpg" alt="Dune" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Dune</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">Frank Herbert</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-40%</span></div>
+                    <a class="card__ia" href="#"><img title="Game of Thrones" src="Images/Books/53475500192KS.jpg" alt="Game of Thrones" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Game of Thrones</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">George R. R. Martin</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.49</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <a class="card__ia" href="#"><img title="Storm of Swords" src="Images/Books/61036700192KS.jpg" alt="Storm of Swords" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Storm of Swords</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">George R. R. Martin</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$17.99</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-48%</span></div>
+                    <a class="card__ia" href="#"><img title="Survive" src="Images/Books/9788326830471.jpg" alt="Survive" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Survive</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">Elizabeth Revol</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$29.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <a class="card__ia" href="#"><img title="Midwife from Auschwitz" src="Images/Books/9788327717412.jpg" alt="Midwife from Auschwitz" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Midwife from Auschwitz</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">Magda Knedler</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 48h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <a class="card__ia" href="#"><img title="Brave New World" src="Images/Books/9788328708303.jpg" alt="Brave New World" class="card__box--image"></a>
+                    <p class="card__box--title"><a class="card__pa" href="#">Brave New World</a></p>
+                    <p class="card__box--author"><a class="card__pa" href="#">Aldous Huxley</a></p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.99</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-50%</span></div>
+                    <img src="Images/Books/9788364384868.jpg" alt="Every Dead Dream" class="card__box--image">
+                    <p class="card__box--title">Every Dead Dream</p>
+                    <p class="card__box--author">Robert M. Wegner</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.99</p>
+                        <p class="card__box--pricebox--oldprice">$23.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-37%</span></div>
+                    <img src="Images/Books/9788365521927.jpg" alt="Abyss Beyond Dreams" class="card__box--image">
+                    <p class="card__box--title">Abyss Beyond Dreams</p>
+                    <p class="card__box--author">Peter F. Hamilton</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$21.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788366065307.jpg" alt="Cibollah Fever" class="card__box--image">
+                    <p class="card__box--title">Cibollah Fever </p>
+                    <p class="card__box--author">James S. A. Corey</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-39%</span></div>
+                    <img src="Images/Books/9788366071414.jpg" alt="Leonardo da Vinci" class="card__box--image">
+                    <p class="card__box--title">Leonardo da Vinci</p>
+                    <p class="card__box--author">Walter Isaacson</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.39</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-44%</span></div>
+                    <img src="Images/Books/9788366436978.jpg" alt="Diatlov's Pass" class="card__box--image">
+                    <p class="card__box--title">Diatlov's Pass</p>
+                    <p class="card__box--author">Anna Matwiejeva</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.49</p>
+                        <p class="card__box--pricebox--oldprice">$18.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788374806664.jpg" alt="Six Crows" class="card__box--image">
+                    <p class="card__box--title">Six Crows</p>
+                    <p class="card__box--author">Leigh Bardugo</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-56%</span></div>
+                    <img src="Images/Books/9788375780666.jpg" alt="Time of Contempt" class="card__box--image">
+                    <p class="card__box--title">Time of Contempt</p>
+                    <p class="card__box--author">Andrzej Sapkowski</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$8.99</p>
+                        <p class="card__box--pricebox--oldprice">$19.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788377313435.jpg" alt="Alien" class="card__box--image">
+                    <p class="card__box--title">Alien</p>
+                    <p class="card__box--author">Alan Dean Foster</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.29</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788380622227.jpg" alt="Flowers for Alergon" class="card__box--image">
+                    <p class="card__box--title">Flowers for Alergon</p>
+                    <p class="card__box--author">Daniel Keyes</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.19</p>
+                        <p class="card__box--pricebox--oldprice">$15.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788380624917.jpg" alt="Supernova Era" class="card__box--image">
+                    <p class="card__box--title">Supernova Era</p>
+                    <p class="card__box--author">Cixin Liu</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.79</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788380759893.jpg" alt="Voices from Afterlife" class="card__box--image">
+                    <p class="card__box--title">Voices from Afterlife</p>
+                    <p class="card__box--author">Remigiusz Mróz</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="displaybox recommend" id="Recommend">
+            <p class="displaybox__heading"><a href="#">We recommend</a></p>
+            <div class="displaybox__content">
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/42974900208KS.jpg" alt="Dune" class="card__box--image">
+                    <p class="card__box--title">Dune</p>
+                    <p class="card__box--author">Frank Herbert</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-40%</span></div>
+                    <img src="Images/Books/53475500192KS.jpg" alt="Game of Thrones" class="card__box--image">
+                    <p class="card__box--title">Game of Thrones</p>
+                    <p class="card__box--author">Geoirge R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.49</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/61036700192KS.jpg" alt="Storm of Swords" class="card__box--image">
+                    <p class="card__box--title">Storm of Swords</p>
+                    <p class="card__box--author">George R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$17.99</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-48%</span></div>
+                    <img src="Images/Books/9788326830471.jpg" alt="Survive" class="card__box--image">
+                    <p class="card__box--title">Survive</p>
+                    <p class="card__box--author">Elizabeth Revol</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$29.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788327717412.jpg" alt="Midwife from Auschwitz" class="card__box--image">
+                    <p class="card__box--title">Midwife from Auschwitz</p>
+                    <p class="card__box--author">Magda Knedler</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 48h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788328708303.jpg" alt="Brave New World" class="card__box--image">
+                    <p class="card__box--title">Brave New World</p>
+                    <p class="card__box--author">Aldous Huxley</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.99</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-50%</span></div>
+                    <img src="Images/Books/9788364384868.jpg" alt="Every Dead Dream" class="card__box--image">
+                    <p class="card__box--title">Every Dead Dream</p>
+                    <p class="card__box--author">Robert M. Wegner</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.99</p>
+                        <p class="card__box--pricebox--oldprice">$23.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-37%</span></div>
+                    <img src="Images/Books/9788365521927.jpg" alt="Abyss Beyond Dreams" class="card__box--image">
+                    <p class="card__box--title">Abyss Beyond Dreams</p>
+                    <p class="card__box--author">Peter F. Hamilton</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$21.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788366065307.jpg" alt="Cibollah Fever" class="card__box--image">
+                    <p class="card__box--title">Cibollah Fever </p>
+                    <p class="card__box--author">James S. A. Corey</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-39%</span></div>
+                    <img src="Images/Books/9788366071414.jpg" alt="Leonardo da Vinci" class="card__box--image">
+                    <p class="card__box--title">Leonardo da Vinci</p>
+                    <p class="card__box--author">Walter Isaacson</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.39</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-44%</span></div>
+                    <img src="Images/Books/9788366436978.jpg" alt="Diatlov's Pass" class="card__box--image">
+                    <p class="card__box--title">Diatlov's Pass</p>
+                    <p class="card__box--author">Anna Matwiejeva</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.49</p>
+                        <p class="card__box--pricebox--oldprice">$18.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788374806664.jpg" alt="Six Crows" class="card__box--image">
+                    <p class="card__box--title">Six Crows</p>
+                    <p class="card__box--author">Leigh Bardugo</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-56%</span></div>
+                    <img src="Images/Books/9788375780666.jpg" alt="Time of Contempt" class="card__box--image">
+                    <p class="card__box--title">Time of Contempt</p>
+                    <p class="card__box--author">Andrzej Sapkowski</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$8.99</p>
+                        <p class="card__box--pricebox--oldprice">$19.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788377313435.jpg" alt="Alien" class="card__box--image">
+                    <p class="card__box--title">Alien</p>
+                    <p class="card__box--author">Alan Dean Foster</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.29</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788380622227.jpg" alt="Flowers for Alergon" class="card__box--image">
+                    <p class="card__box--title">Flowers for Alergon</p>
+                    <p class="card__box--author">Daniel Keyes</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.19</p>
+                        <p class="card__box--pricebox--oldprice">$15.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788380624917.jpg" alt="Supernova Era" class="card__box--image">
+                    <p class="card__box--title">Supernova Era</p>
+                    <p class="card__box--author">Cixin Liu</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.79</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788380759893.jpg" alt="Voices from Afterlife" class="card__box--image">
+                    <p class="card__box--title">Voices from Afterlife</p>
+                    <p class="card__box--author">Remigiusz Mróz</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <div class="displaybox news" id="News">
+            <p class="displaybox__heading"><a href="#">News on market</a></p>
+            <div class="displaybox__content">
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/42974900208KS.jpg" alt="Dune" class="card__box--image">
+                    <p class="card__box--title">Dune</p>
+                    <p class="card__box--author">Frank Herbert</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-40%</span></div>
+                    <img src="Images/Books/53475500192KS.jpg" alt="Game of Thrones" class="card__box--image">
+                    <p class="card__box--title">Game of Thrones</p>
+                    <p class="card__box--author">Geoirge R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.49</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/61036700192KS.jpg" alt="Storm of Swords" class="card__box--image">
+                    <p class="card__box--title">Storm of Swords</p>
+                    <p class="card__box--author">George R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$17.99</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-48%</span></div>
+                    <img src="Images/Books/9788326830471.jpg" alt="Survive" class="card__box--image">
+                    <p class="card__box--title">Survive</p>
+                    <p class="card__box--author">Elizabeth Revol</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$29.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788327717412.jpg" alt="Midwife from Auschwitz" class="card__box--image">
+                    <p class="card__box--title">Midwife from Auschwitz</p>
+                    <p class="card__box--author">Magda Knedler</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 48h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788328708303.jpg" alt="Brave New World" class="card__box--image">
+                    <p class="card__box--title">Brave New World</p>
+                    <p class="card__box--author">Aldous Huxley</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.99</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-50%</span></div>
+                    <img src="Images/Books/9788364384868.jpg" alt="Every Dead Dream" class="card__box--image">
+                    <p class="card__box--title">Every Dead Dream</p>
+                    <p class="card__box--author">Robert M. Wegner</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.99</p>
+                        <p class="card__box--pricebox--oldprice">$23.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-37%</span></div>
+                    <img src="Images/Books/9788365521927.jpg" alt="Abyss Beyond Dreams" class="card__box--image">
+                    <p class="card__box--title">Abyss Beyond Dreams</p>
+                    <p class="card__box--author">Peter F. Hamilton</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$21.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788366065307.jpg" alt="Cibollah Fever" class="card__box--image">
+                    <p class="card__box--title">Cibollah Fever </p>
+                    <p class="card__box--author">James S. A. Corey</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-39%</span></div>
+                    <img src="Images/Books/9788366071414.jpg" alt="Leonardo da Vinci" class="card__box--image">
+                    <p class="card__box--title">Leonardo da Vinci</p>
+                    <p class="card__box--author">Walter Isaacson</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.39</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-44%</span></div>
+                    <img src="Images/Books/9788366436978.jpg" alt="Diatlov's Pass" class="card__box--image">
+                    <p class="card__box--title">Diatlov's Pass</p>
+                    <p class="card__box--author">Anna Matwiejeva</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.49</p>
+                        <p class="card__box--pricebox--oldprice">$18.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788374806664.jpg" alt="Six Crows" class="card__box--image">
+                    <p class="card__box--title">Six Crows</p>
+                    <p class="card__box--author">Leigh Bardugo</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-56%</span></div>
+                    <img src="Images/Books/9788375780666.jpg" alt="Time of Contempt" class="card__box--image">
+                    <p class="card__box--title">Time of Contempt</p>
+                    <p class="card__box--author">Andrzej Sapkowski</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$8.99</p>
+                        <p class="card__box--pricebox--oldprice">$19.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788377313435.jpg" alt="Alien" class="card__box--image">
+                    <p class="card__box--title">Alien</p>
+                    <p class="card__box--author">Alan Dean Foster</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.29</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788380622227.jpg" alt="Flowers for Alergon" class="card__box--image">
+                    <p class="card__box--title">Flowers for Alergon</p>
+                    <p class="card__box--author">Daniel Keyes</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.19</p>
+                        <p class="card__box--pricebox--oldprice">$15.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788380624917.jpg" alt="Supernova Era" class="card__box--image">
+                    <p class="card__box--title">Supernova Era</p>
+                    <p class="card__box--author">Cixin Liu</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.79</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788380759893.jpg" alt="Voices from Afterlife" class="card__box--image">
+                    <p class="card__box--title">Voices from Afterlife</p>
+                    <p class="card__box--author">Remigiusz Mróz</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="displaybox ontime" id="ontime">
+            <p class="displaybox__heading"><a href="#">Books on time</a></p>
+            <div class="displaybox__content">
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/42974900208KS.jpg" alt="Dune" class="card__box--image">
+                    <p class="card__box--title">Dune</p>
+                    <p class="card__box--author">Frank Herbert</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-40%</span></div>
+                    <img src="Images/Books/53475500192KS.jpg" alt="Game of Thrones" class="card__box--image">
+                    <p class="card__box--title">Game of Thrones</p>
+                    <p class="card__box--author">Geoirge R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.49</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/61036700192KS.jpg" alt="Storm of Swords" class="card__box--image">
+                    <p class="card__box--title">Storm of Swords</p>
+                    <p class="card__box--author">George R. R. Martin</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$17.99</p>
+                        <p class="card__box--pricebox--oldprice">$25.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-48%</span></div>
+                    <img src="Images/Books/9788326830471.jpg" alt="Survive" class="card__box--image">
+                    <p class="card__box--title">Survive</p>
+                    <p class="card__box--author">Elizabeth Revol</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$29.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788327717412.jpg" alt="Midwife from Auschwitz" class="card__box--image">
+                    <p class="card__box--title">Midwife from Auschwitz</p>
+                    <p class="card__box--author">Magda Knedler</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 48h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788328708303.jpg" alt="Brave New World" class="card__box--image">
+                    <p class="card__box--title">Brave New World</p>
+                    <p class="card__box--author">Aldous Huxley</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.99</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-50%</span></div>
+                    <img src="Images/Books/9788364384868.jpg" alt="Every Dead Dream" class="card__box--image">
+                    <p class="card__box--title">Every Dead Dream</p>
+                    <p class="card__box--author">Robert M. Wegner</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.99</p>
+                        <p class="card__box--pricebox--oldprice">$23.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-37%</span></div>
+                    <img src="Images/Books/9788365521927.jpg" alt="Abyss Beyond Dreams" class="card__box--image">
+                    <p class="card__box--title">Abyss Beyond Dreams</p>
+                    <p class="card__box--author">Peter F. Hamilton</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$21.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788366065307.jpg" alt="Cibollah Fever" class="card__box--image">
+                    <p class="card__box--title">Cibollah Fever </p>
+                    <p class="card__box--author">James S. A. Corey</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$15.49</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-39%</span></div>
+                    <img src="Images/Books/9788366071414.jpg" alt="Leonardo da Vinci" class="card__box--image">
+                    <p class="card__box--title">Leonardo da Vinci</p>
+                    <p class="card__box--author">Walter Isaacson</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$14.39</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-44%</span></div>
+                    <img src="Images/Books/9788366436978.jpg" alt="Diatlov's Pass" class="card__box--image">
+                    <p class="card__box--title">Diatlov's Pass</p>
+                    <p class="card__box--author">Anna Matwiejeva</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.49</p>
+                        <p class="card__box--pricebox--oldprice">$18.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788374806664.jpg" alt="Six Crows" class="card__box--image">
+                    <p class="card__box--title">Six Crows</p>
+                    <p class="card__box--author">Leigh Bardugo</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$13.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-56%</span></div>
+                    <img src="Images/Books/9788375780666.jpg" alt="Time of Contempt" class="card__box--image">
+                    <p class="card__box--title">Time of Contempt</p>
+                    <p class="card__box--author">Andrzej Sapkowski</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$8.99</p>
+                        <p class="card__box--pricebox--oldprice">$19.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-41%</span></div>
+                    <img src="Images/Books/9788377313435.jpg" alt="Alien" class="card__box--image">
+                    <p class="card__box--title">Alien</p>
+                    <p class="card__box--author">Alan Dean Foster</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$12.99</p>
+                        <p class="card__box--pricebox--oldprice">$20.29</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-35%</span></div>
+                    <img src="Images/Books/9788380622227.jpg" alt="Flowers for Alergon" class="card__box--image">
+                    <p class="card__box--title">Flowers for Alergon</p>
+                    <p class="card__box--author">Daniel Keyes</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$9.19</p>
+                        <p class="card__box--pricebox--oldprice">$15.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-33%</span></div>
+                    <img src="Images/Books/9788380624917.jpg" alt="Supernova Era" class="card__box--image">
+                    <p class="card__box--title">Supernova Era</p>
+                    <p class="card__box--author">Cixin Liu</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$11.79</p>
+                        <p class="card__box--pricebox--oldprice">$17.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+
+                <div class="card__box" id="card">
+                    
+                    <div class="card__box--discountbubble"><span class="card__box--discountbubble--text">-36%</span></div>
+                    <img src="Images/Books/9788380759893.jpg" alt="Voices from Afterlife" class="card__box--image">
+                    <p class="card__box--title">Voices from Afterlife</p>
+                    <p class="card__box--author">Remigiusz Mróz</p>
+                    <div class="card__box--starbox">
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-half-empty.svg" alt="Rating star">
+                        </div>
+                        <div class="card__box--starbox--star">
+                            <img src="Images/SVG/star-o.svg" alt="Rating star">
+                        </div>
+                    </div>
+                    <div class="card__box--pricebox">
+                        <p class="card__box--pricebox--price">$16.19</p>
+                        <p class="card__box--pricebox--oldprice">$24.99</p>
+                    </div>
+
+                    <p class="card__box--shipping">Shipping within 24h</p>
+                    <button class="card__box--cartbutton"><img src="Images/SVG/shopping-cart.svg" alt="Cart" class="card__box__icon">Add to cart</button>
+                    <button class="card__box--favbutton">Add to wish list <img src="Images/SVG/bookmark-o.svg" alt="Fav" class="card__box_icon"></button>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="displayboxsmall uptodate" id="uptodate">
+            <p class="displayboxsmall__heading">Be always up to date</p>
+
+            <div class="bloginfo">
+                <div class="bloginfo__logo">
+                    <img class="bloginfo__logo--logo" src="Images/SVG/book.svg" alt="Sashimi Logo">
+                    <p class="bloginfo__logo--header">SASHIMI BLOG</p>
+                </div>
+                <div class="bloginfo__about">
+                    <p>
+                        As a top-notch online bookseller we are always up to date -  
+                        tracking publishers upcomings and new releases, readers trends and expectations, 
+                        writers interviews and future plans,
+                        reading statistics and much more. If You also want to know what's new in books
+                        world check out our Sashimi blog, where we publish everything we found 
+                        important and interesting all around the globe!
+                    </p>
+                </div>
+                    <div class="bloginfo__news">
+                        <p class="bloginfo__news--header">
+                            Check out newest blog entries
+                        </p>
+
+                        <a href="#" class="bloginfo__news--entry">
+                            <p class="bloginfo__news--entry--date">06.03.2020</p>
+                            <p class="bloginfo__news--entry--text">Mantel's Masterpiece Concludes</p>
+                        </a>
+
+                        <a href="#" class="bloginfo__news--entry">
+                            <p class="bloginfo__news--entry--date">06.03.2020</p>
+                            <p class="bloginfo__news--entry--text">Witcher still on top!</p>
+                        </a>
+
+                        <a href="#" class="bloginfo__news--entry">
+                            <p class="bloginfo__news--entry--date">07.03.2020</p>
+                            <p class="bloginfo__news--entry--text">Tanya Valko exclusive interview</p>
+                        </a>
+                    </div>
+                
+            </div>
+
+            
+        </div>
+
+        <form action="#" class="newsletterform">
+            <p class="newsletterform__header">Sign up for our newsletter</p>
+            <div class="newsletterform__input">
+                <input type="email" class="newsletterform__input--text" placeholder="Enter Your E-mail address...">
+                <button class="newsletterform__input--button">Sign up</button>
+            </div>
+            <p class="newsletterform__footer">High discounts, special offers, discount codes - be always up to date!</p>
+        </form>
+
+    </div>
+
+    <p class="papapoa" id="papa">See whats what</p>
+
+    <script src="Scripts//index.js"></script>
+    <script src="Scripts//main.js"></script>
+</body>
+</html>
